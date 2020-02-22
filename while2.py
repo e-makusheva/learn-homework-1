@@ -19,12 +19,12 @@ def ask_user():
     """
     Замените pass на ваш код
     """
-dialog={'как дела?': 'хорошо', 'что делаешь?': 'программирую'}
+dialog = {'как дела?': 'хорошо', 'что делаешь?': 'программирую'}
 while True:
-  user_question=input('пользователь: ')
-  if user_question in dialog:
-    print(f'программа: {dialog[user_question]}')
-    user_question=''
+    user_question = input('пользователь: ')
+    if user_question in dialog:
+        print(f'программа: {dialog[user_question]}')
+        
   
   
 

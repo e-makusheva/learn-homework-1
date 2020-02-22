@@ -13,13 +13,13 @@
 """
 
 def get_summ(num_one, num_two):
-  """
-  Замените pass на ваш код
-  """
-  try:
-    return int(num_one)+int(num_two)
-  except ValueError:
-    return('неправильный формат данных')
+    """
+    Замените pass на ваш код
+    """
+    try:
+        return int(num_one) + int(num_two)
+    except ValueError:
+        return('неправильный формат данных')
   
   
 if __name__ == "__main__":
